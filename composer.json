@@ -1,0 +1,22 @@
+{
+    "name": "wlib/http-client",
+    "description": "Simple PHP HTTP client class.",
+    "type": "library",
+    "keywords": ["wlib", "http", "client", "request", "response"],
+    "license": "CECILL-2.1",
+    "authors": [
+        {
+            "name": "Cédric Ducarre",
+            "email": "samray1024@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wlib\\Http\\Client\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
